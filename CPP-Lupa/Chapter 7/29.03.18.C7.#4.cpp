@@ -12,7 +12,7 @@ int main()
 	string row;
 	int number(0);
 
-	while(getline( cin, row))		//As long a row can be read
+	while(getline( cin, row))		//As long a cin can be read
 	{
 		cout << setw(5) << ++number << ": "
 			 << row << endl;
