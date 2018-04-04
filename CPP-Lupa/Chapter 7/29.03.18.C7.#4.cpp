@@ -12,8 +12,8 @@ int main()
 	string row;
 	int number(0);
 
-	while(getline( cin, row))		//As long a cin can be read
-	{
+	while(getline( cin, row))		//As long as cin output a value
+		{
 		cout << setw(5) << ++number << ": "
 			 << row << endl;
 	}
